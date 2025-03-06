@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napaketut ry - Meistä</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <input type="checkbox" id="sidebar-active" >
+        <label for="sidebar-active" class="open-sidebar-button">
+            <img src="kuvat/menu_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.svg" alt="">
+        </label>
+        <label for="sidebar-active" id="overlay"></label>
+        <div class="menubar">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <img src="kuvat/close_32dp_1F1F1F_FILL0_wght400_GRAD0_opsz40.svg" alt="">
+            </label>
+                    <img src="kuvat/npkt.png" alt="" id="logo">
+                    <a href="index.html" class="navbarbutton" >Koti</a>
+                    <a href="meista.html" class="navbarbutton">Meistä</a>
+                    <a href="kauppa.html" class="navbarbutton">Kauppa</a>
+                    <a href="contact.html" class="contactbutton">Ota yheyttä</a>
+        </div>
+
+    </nav>
+    <main class="main">
+        <img src="kuvat/npkt.png" alt="" class="mobilelogo">
+
+        <div id="kauppatext">
+            <h1>Ota meihin yhteyttä!</h1>
+            <p>
+                Treeniryhmämme kasvaa kovaa vauhtia, mutta Napakettujen treeniryhmissä on aina tilaa uusille harjoittelijoille, tasosta riippumatta!
+            </p>
+        </div>
+        <div id="items">
+           <div id="contactform">
+            <input type="text" placeholder="Aihe" id="topicbox">
+            <textarea name="msg" id="textbox" placeholder="Kirjoita viestisi tähän kenttään..."></textarea>
+            <div id="nimimeili">
+                <input type="text" placeholder="Nimi" id="namebox">
+                <input type="email" placeholder="Sähköposti" id="emailbox">
+            </div>
+            <button class="sendbutton">Lähetä</button>
+           </div>
+           <div id="yhteystiedot">
+            <p>S-posti: napaketutry@gmail.com</p>
+            <p>Puh: 044 123 4567</p>
+            <p>Instagram: @napaketut_ry</p>
+           </div>
+        </div>    
+    </main>
+</body>
+</html>
